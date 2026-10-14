@@ -26,6 +26,7 @@
   - [Generative Artificial Intelligence (GenAI)](#generative-artificial-intelligence-genai)
   - [Knowledge Management Tools](#knowledge-management-tools)
   - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
+  - [Media Streaming - Audio Streaming](#media-streaming---audio-streaming)
   - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
   - [Miscellaneous](#miscellaneous)
   - [Money, Budgeting & Management](#money-budgeting--management)
@@ -39,6 +40,7 @@
   - [Software Development - Low Code](#software-development---low-code)
   - [Software Development - Project Management](#software-development---project-management)
   - [Software Development - Testing](#software-development---testing)
+  - [Task Management & To-do Lists](#task-management--to-do-lists)
   - [Ticketing](#ticketing)
   - [Time Tracking](#time-tracking)
   - [Wikis](#wikis)
@@ -77,7 +79,8 @@
 
 - [Chatwoot](https://www.chatwoot.com) - Customer communication platform (alternative to Intercom and Zendesk). ([Source Code](https://github.com/chatwoot/chatwoot)) `⊘ Proprietary` `Ruby/Docker/K8S`
 - [Groupboard](https://www.groupboard.com/products/) - Online whiteboard, audio/video conferencing, screen sharing, shared code editing and optional session recording/playback. `⊘ Proprietary` `Unknown`
-- [PrivMX WebMail](https://privmx.com) - Alternative private mail system - web-based, end-to-end encrypted by design, self-hosted, decentralized, uses independent PKI. Easy to install and administrate, freeware, open-source. `⊘ Proprietary` `PHP`
+- [Mattermost](https://mattermost.com/) - Platform for secure collaboration across the entire software development lifecycle, can be integrated with Gitlab (alternative to Slack). ([Source Code](https://github.com/mattermost/mattermost)) `⊘ Proprietary` `Go/Docker/K8S`
+- [PrivMX WebMail](https://privmx.com) - Web-based, end-to-end encrypted email platform that uses an independent PKI. `⊘ Proprietary` `PHP`
 - [Virola Messenger](https://virola.io/) - Instant messaging and collaboration tool with private and group chat rooms, continuous voice and video meetings, files sharing, issue tracking with integrated task board (alternative to Slack). `⊘ Proprietary` `C++`
 - [WorkAdventure](https://workadventu.re) - Virtual office / virtual conference application presented as a 16-bit RPG video game. ([Demo](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [Source Code](https://github.com/workadventure/workadventure)) `AGPL-3.0/Commons-Clause` `Docker`
 
@@ -125,7 +128,7 @@
 
 - [Cluster Control](https://severalnines.com/clustercontrol/) - Setup many databases in few clicks with monitoring, load balancing and more. `⊘ Proprietary` `deb/Ansible/Shell/Docker`
 - [Directus](https://directus.io/) - An Instant App & API for your SQL Database. Directus wraps your new or existing SQL database with a realtime GraphQL+REST API for developers, and an intuitive admin app for non-technical users. ([Source Code](https://github.com/directus/directus)) `BUSL-1.1` `Nodejs/Docker`
-- [MindsDB](https://mindsdb.com/) - AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries. ([Source Code](https://github.com/mindsdb/mindsdb)) `Elastic-2.0` `Docker/Python`
+- [MindsDB](https://mindsdb.com/) - AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries. ([Source Code](https://github.com/mindsdb/mindshub)) `Elastic-2.0` `Docker/Python`
 - [NocoDB](https://www.nocodb.com/) - No-code platform that turns any database into a smart spreadsheet (alternative to Airtable and Smartsheet). ([Source Code](https://github.com/nocodb/nocodb)) `SUL-1.0` `Nodejs/Docker`
 
 
@@ -142,7 +145,7 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [OXID eShop](https://oxidforge.org/en/) - OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. ([Source Code](https://github.com/OXID-eSales/oxideshop_ce)) `⊘ Proprietary` `PHP`
-- [Sharetribe](https://www.sharetribe.com) - Open-source platform to create your own peer-to-peer marketplace, also available with SaaS model. ([Source Code](https://github.com/sharetribe/sharetribe)) `⊘ Proprietary` `Ruby`
+- [Sharetribe](https://www.sharetribe.com) - Platform to create your own peer-to-peer marketplace, also available with SaaS model. ([Source Code](https://github.com/sharetribe/sharetribe)) `⊘ Proprietary` `Ruby`
 
 
 ### File Transfer & Synchronization
@@ -150,6 +153,7 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [FileRun](https://filerun.com/) - Complete solution for your files with integration with Google and Office. ([Demo](https://filerun.com/demo)) `⊘ Proprietary` `PHP`
+- [Hoodik](https://hoodik.io) - End-to-end encrypted cloud storage server. Files are encrypted and decrypted in the browser, so the server only ever holds ciphertext. Runs on SQLite or PostgreSQL, stores chunks on local disk or any S3-compatible service. ([Source Code](https://github.com/hudikhq/hoodik)) `CC-BY-NC-4.0` `Docker`
 - [Resilio Sync](https://www.resilio.com/) - Proprietary peer-to-peer file synchronisation tool. `⊘ Proprietary` `Unknown`
 - [Yetishare](https://yetishare.com) - Powerful file hosting script with support for Amazon S3, Wasabi, Backblaze, local, direct and SFTP storage. ([Demo](https://fhscript.com)) `⊘ Proprietary` `PHP`
 
@@ -166,7 +170,6 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Cubiks-2048](https://github.com/Kshitij-Banerjee/Cubiks-2048) - Clone of 2048 game in 3D. ([Demo](https://kshitij-banerjee.github.io/Cubiks-2048/)) `CC-BY-NC-4.0` `Javascript`
-- [untrusted](https://github.com/AlexNisnevich/untrusted) - Unique puzzle game designed for geeks and developers, where you solve the puzzles in the game by reading and writing Javascript. ([Demo](http://alexnisnevich.github.io/untrusted/)) `CC-BY-NC-SA-3.0` `Nodejs`
 
 
 ### Games - Administrative Utilities & Control Panels
@@ -180,7 +183,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [LobeHub](https://www.lobehub.com) - Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking. ([Demo](https://www.lobechat.com), [Source Code](https://github.com/lobehub/lobe-chat), [Clients](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
+- [LobeHub](https://www.lobehub.com) - Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking. ([Source Code](https://github.com/lobehub/lobehub), [Clients](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
 
 
 ### Knowledge Management Tools
@@ -195,6 +198,13 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [MapTiler Server](https://www.maptiler.com/server/) - Host OpenStreetMap vector tiles, satellite imagery, own geodata and data from PostGIS database. `⊘ Proprietary` `Unknown`
+
+
+### Media Streaming - Audio Streaming
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [Väinö](https://supponexus.com/products/vaino) - High-fidelity music server for Raspberry Pi with iOS and Android companion apps. `⊘ Proprietary` `Python`
 
 
 ### Media Streaming - Video Streaming
@@ -221,7 +231,9 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Akaunting](https://akaunting.com/) - Accounting software designed for small businesses and freelancers. ([Source Code](https://github.com/akaunting/akaunting)) `BUSL-1.1` `PHP`
+- [Assets](https://github.com/venil7/assets) `⚠` - Personal net worth and investment tracker. `⊘ Proprietary` `Docker`
 - [Invoice Ninja](https://www.invoiceninja.org/) - Powerful tool to invoice clients online. ([Demo](https://app.invoiceninja.com/invoices/create), [Source Code](https://github.com/invoiceninja/invoiceninja)) `Elastic-2.0` `PHP/Docker/K8S`
+- [monetr](https://monetr.app/) - Budgeting application focused on planning for recurring expenses. ([Source Code](https://github.com/monetr/monetr)) `FSL-1.1-MIT` `Docker/K8S`
 - [Pancake](https://www.pancakeapp.com/) - Online invoicing, project management, time tracking and proposal software. `⊘ Proprietary` `PHP`
 
 
@@ -260,7 +272,6 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Axigen](https://www.axigen.com/mail-server/free/) - Turnkey messaging solution for small & micro businesses, integration projects or test environments. `⊘ Proprietary` `Unknown`
-- [Cloud Seeder](https://ipv6.rs/cloudseeder/) - One-click server appliance deployment and maintenance suite for Windows, MacOS and Linux. ([Source Code](https://github.com/ipv6rslimited/cloudseeder)) `⊘ Proprietary` `Go`
 - [Cloudron](https://www.cloudron.io/) - Open-core software allowing you to effortlessly self-host web apps on your server. ([Demo](https://my.demo.cloudron.io/), [Source Code](https://git.cloudron.io/groups/cloudron)) `⊘ Proprietary` `Nodejs/Docker`
 - [Cosmos](https://cosmos-cloud.io/) - Run server applications securely and with built-in privacy features. It acts as a secure gateway to your application, as well as a server manager. ([Source Code](https://github.com/azukaar/cosmos-Server)) `Apache-2.0/Commons-Clause` `Docker/Go`
 - [Easypanel](https://easypanel.io) - Modern server control panel powered by Docker. `⊘ Proprietary` `Docker`
@@ -297,7 +308,6 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [92five](https://92fiveapp.com/) - Self-hosted project management application. `⊘ Proprietary` `PHP`
 - [Active Collab](https://activecollab.com/) - Project management. `⊘ Proprietary` `PHP`
 - [BitBucket Server](https://www.atlassian.com/software/bitbucket/enterprise/data-center) - Enterprise-level Git solution (alternative to GitLab). `⊘ Proprietary` `Java`
 - [Buddy Enterprise](https://buddy.works/) - Git and Continuous Integration/Delivery Platform. `⊘ Proprietary` `Nodejs/Java`
@@ -314,9 +324,15 @@
 
 - [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous integration server. `⊘ Proprietary` `Java`
 - [BrowserStack Automate TurboScale](https://www.browserstack.com/automate-turboscale) - Scalable browser automation grid on your cloud (AWS, GCP and Azure) supporting Selenium and Playwright. `⊘ Proprietary` `Docker`
-- [Grai](https://www.grai.io) - Automated integration testing. Uses data lineage to statically analyze the impact of a data change across your entire data stack. ([Source Code](https://www.github.com/grai-io/grai-core)) `Elastic-2.0` `Docker`
 - [Moon](https://aerokube.com/moon/) - Efficient Selenium protocol implementation running everything in Kubernetes or Openshift. `⊘ Proprietary` `Go`
-- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - Powerful error tracking platform with wide language support and a robust API. ([Source Code](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python/Django`
+- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - Powerful error tracking platform with wide language support and a robust API. ([Source Code](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python`
+
+
+### Task Management & To-do Lists
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [Planka](https://planka.app/) - Realtime kanban board for workgroups (alternative to Trello). ([Demo](https://plankanban.github.io/planka/#/), [Source Code](https://github.com/plankanban/planka)) `⊘ Proprietary` `Nodejs/Docker/K8S`
 
 
 ### Ticketing
@@ -325,6 +341,7 @@
 
 - [Bugsink](https://www.bugsink.com/) - Real-time error tracking for your applications with all the details in one place. Easy setup with clear instructions included. ([Source Code](https://github.com/bugsink/bugsink/)) `⊘ Proprietary` `Python/Docker`
 - [Deskpro](https://www.deskpro.com/) - On-Premise help desk software that includes email, chat, voice & help centre publishing. Full visible source code and API. `⊘ Proprietary` `Unknown`
+- [EKSO](https://ekso.app) - Help desk ticketing and project/issue tracker. `⊘ Proprietary` `Docker`
 - [Erxes](https://erxes.io/install/) - Marketing, sales, and customer service platform designed to help businesses attract more engaged customers. ([Source Code](https://github.com/erxes/erxes)) `AGPL-3.0/Commons-Clause` `Docker/Nodejs`
 - [Full Help](https://www.fullhelp.com/en/) - Simple, easy to use help desk & knowledge base software. Custom branding, custom themes, restful API, communication channels, multi-company support, multi-language support, and much more! At least 1 new release per month. `⊘ Proprietary` `PHP`
 - [JIRA](https://www.atlassian.com/software/jira) - Professional and extensible issue tracker. `⊘ Proprietary` `Java`
@@ -362,6 +379,7 @@
 - `Commons-Clause` - [Commons Clause License](https://commonsclause.com/)
 - `DPL` - [Devblocks Public License 1.0](https://cerb.ai/license/)
 - `Elastic-2.0` - [Elastic License 2.0](https://spdx.org/licenses/Elastic-2.0.html)
+- `FSL-1.1-MIT` - [Functional Source License, Version 1.1, MIT Future License](https://spdx.org/licenses/FSL-1.1-MIT.html)
 - `NPOSL-3.0` - [Non-Profit Open Software License 3.0](https://spdx.org/licenses/NPOSL-3.0.html)
 - `SSPL-1.0` - [Server Side Public License](https://spdx.org/licenses/SSPL-1.0.html)
 - `SUL-1.0` - [Sustainable Use License v1.0](https://spdx.org/licenses/SUL-1.0.html)
